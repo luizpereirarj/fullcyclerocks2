@@ -20,9 +20,12 @@ services:
       dockerfile: Dockerfile
     networks:
       - node-network
+<<<<<<< HEAD
     volumes:
       - ./node:/app
       - /app/node_modules
+=======
+>>>>>>> 60322db8c77950693f824aaade365cabd4d5039b
     tty: true
     container_name: app
     ports:
